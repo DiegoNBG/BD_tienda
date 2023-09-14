@@ -51,5 +51,22 @@ namespace Proyecto_tienda
             txtdescripcion.Text = "";
             txtprecio.Text = "";
         }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            eliminar();
+            Llenardatos ();
+        }
+
+        private void eliminar()
+        {
+            if (MessageBox.Show("Estas seguro de eliminar el producto", "Eliminar producto",
+                MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                var idproducto = int.Parse(dtgtienda.CurrentRow.Cells["IdProductos"].Value.ToString());
+                _manejadorproductos.EliminarUsuarios(idproducto);
+            }
+
+        }
     }
 }

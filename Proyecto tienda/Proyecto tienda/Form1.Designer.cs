@@ -32,13 +32,13 @@
             this.lblproducto = new System.Windows.Forms.Label();
             this.lbldescripcion = new System.Windows.Forms.Label();
             this.lblprecio = new System.Windows.Forms.Label();
-            this.btnagregar = new System.Windows.Forms.Button();
-            this.btnmodificar = new System.Windows.Forms.Button();
-            this.btneliminar = new System.Windows.Forms.Button();
             this.dtgtienda = new System.Windows.Forms.DataGridView();
             this.txtproducto = new System.Windows.Forms.TextBox();
             this.txtdescripcion = new System.Windows.Forms.TextBox();
             this.txtprecio = new System.Windows.Forms.TextBox();
+            this.btneliminar = new System.Windows.Forms.Button();
+            this.btnmodificar = new System.Windows.Forms.Button();
+            this.btnagregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgtienda)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,7 +46,7 @@
             // 
             this.lbltienda.AutoSize = true;
             this.lbltienda.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltienda.Location = new System.Drawing.Point(330, 9);
+            this.lbltienda.Location = new System.Drawing.Point(289, 9);
             this.lbltienda.Name = "lbltienda";
             this.lbltienda.Size = new System.Drawing.Size(147, 46);
             this.lbltienda.TabIndex = 0;
@@ -82,34 +82,6 @@
             this.lblprecio.TabIndex = 3;
             this.lblprecio.Text = "Ingresa el precio ";
             // 
-            // btnagregar
-            // 
-            this.btnagregar.Location = new System.Drawing.Point(454, 347);
-            this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(75, 23);
-            this.btnagregar.TabIndex = 4;
-            this.btnagregar.Text = "agregar";
-            this.btnagregar.UseVisualStyleBackColor = true;
-            this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
-            // 
-            // btnmodificar
-            // 
-            this.btnmodificar.Location = new System.Drawing.Point(564, 347);
-            this.btnmodificar.Name = "btnmodificar";
-            this.btnmodificar.Size = new System.Drawing.Size(75, 23);
-            this.btnmodificar.TabIndex = 5;
-            this.btnmodificar.Text = "modificar";
-            this.btnmodificar.UseVisualStyleBackColor = true;
-            // 
-            // btneliminar
-            // 
-            this.btneliminar.Location = new System.Drawing.Point(678, 347);
-            this.btneliminar.Name = "btneliminar";
-            this.btneliminar.Size = new System.Drawing.Size(75, 23);
-            this.btneliminar.TabIndex = 6;
-            this.btneliminar.Text = "aliminar";
-            this.btneliminar.UseVisualStyleBackColor = true;
-            // 
             // dtgtienda
             // 
             this.dtgtienda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -117,7 +89,7 @@
             this.dtgtienda.Name = "dtgtienda";
             this.dtgtienda.RowHeadersWidth = 62;
             this.dtgtienda.RowTemplate.Height = 28;
-            this.dtgtienda.Size = new System.Drawing.Size(736, 150);
+            this.dtgtienda.Size = new System.Drawing.Size(692, 150);
             this.dtgtienda.TabIndex = 7;
             // 
             // txtproducto
@@ -141,11 +113,41 @@
             this.txtprecio.Size = new System.Drawing.Size(244, 26);
             this.txtprecio.TabIndex = 10;
             // 
+            // btneliminar
+            // 
+            this.btneliminar.Image = global::Proyecto_tienda.Properties.Resources._1492790846_9cancel_84247;
+            this.btneliminar.Location = new System.Drawing.Point(598, 315);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(59, 61);
+            this.btneliminar.TabIndex = 6;
+            this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
+            // 
+            // btnmodificar
+            // 
+            this.btnmodificar.Image = global::Proyecto_tienda.Properties.Resources.edit_modify_icon_149489;
+            this.btnmodificar.Location = new System.Drawing.Point(508, 315);
+            this.btnmodificar.Name = "btnmodificar";
+            this.btnmodificar.Size = new System.Drawing.Size(61, 61);
+            this.btnmodificar.TabIndex = 5;
+            this.btnmodificar.UseVisualStyleBackColor = true;
+            // 
+            // btnagregar
+            // 
+            this.btnagregar.BackColor = System.Drawing.Color.Transparent;
+            this.btnagregar.Image = global::Proyecto_tienda.Properties.Resources.add_circle_create_expand_new_plus_icon_123218;
+            this.btnagregar.Location = new System.Drawing.Point(413, 315);
+            this.btnagregar.Name = "btnagregar";
+            this.btnagregar.Size = new System.Drawing.Size(64, 61);
+            this.btnagregar.TabIndex = 4;
+            this.btnagregar.UseVisualStyleBackColor = false;
+            this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(793, 649);
+            this.ClientSize = new System.Drawing.Size(721, 649);
             this.Controls.Add(this.txtprecio);
             this.Controls.Add(this.txtdescripcion);
             this.Controls.Add(this.txtproducto);

@@ -65,7 +65,7 @@ namespace AccesoDatos.Tienda
         }
         public void EliminarProductos(int idproductos)
         {
-            string consulta = string.Format("delete from usuarios where idusuario ={0}", idproductos);
+            string consulta = string.Format("delete from productos where idproducto ='{0}';", idproductos);
             conexion.EjecutarConsulta(consulta);
         }
         public void ActualizarProductos(Productos nuevoproducto)
