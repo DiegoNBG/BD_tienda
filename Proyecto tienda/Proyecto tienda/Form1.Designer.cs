@@ -91,6 +91,7 @@
             this.dtgtienda.RowTemplate.Height = 28;
             this.dtgtienda.Size = new System.Drawing.Size(692, 150);
             this.dtgtienda.TabIndex = 7;
+            this.dtgtienda.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgtienda_CellDoubleClick);
             // 
             // txtproducto
             // 
@@ -131,6 +132,7 @@
             this.btnmodificar.Size = new System.Drawing.Size(61, 61);
             this.btnmodificar.TabIndex = 5;
             this.btnmodificar.UseVisualStyleBackColor = true;
+            this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
             // 
             // btnagregar
             // 
