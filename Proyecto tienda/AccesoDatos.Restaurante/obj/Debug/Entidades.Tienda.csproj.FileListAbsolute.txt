@@ -1,0 +1,6 @@
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\AccesoDatos.Restaurante\bin\Debug\AccesoDatos.Restaurante.dll
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\AccesoDatos.Restaurante\bin\Debug\AccesoDatos.Restaurante.pdb
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\AccesoDatos.Restaurante\obj\Debug\Entidades.Tienda.csproj.AssemblyReference.cache
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\AccesoDatos.Restaurante\obj\Debug\Entidades.Tienda.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\AccesoDatos.Restaurante\obj\Debug\AccesoDatos.Restaurante.dll
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\AccesoDatos.Restaurante\obj\Debug\AccesoDatos.Restaurante.pdb

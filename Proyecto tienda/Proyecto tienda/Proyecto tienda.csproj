@@ -106,6 +106,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -128,6 +131,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatos.Restaurante\Entidades.Tienda.csproj">
+      <Project>{00161826-35bc-4a7d-8c95-ad0a21f9692f}</Project>
+      <Name>Entidades.Tienda</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicaNegocio.Tienda\LogicaNegocio.Tienda.csproj">
+      <Project>{8e73658b-ed41-467a-ba42-b883acafcd1f}</Project>
+      <Name>LogicaNegocio.Tienda</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

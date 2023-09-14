@@ -39,3 +39,11 @@ C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\obj\Debug\
 C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\obj\Debug\Proyecto tienda.csproj.CopyComplete
 C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\obj\Debug\Proyecto tienda.exe
 C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\obj\Debug\Proyecto tienda.pdb
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\bin\Debug\AccesoDatos.Restaurante.dll
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\bin\Debug\LogicaNegocio.Tienda.dll
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\bin\Debug\AccesoDatos.Tienda.dll
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\bin\Debug\AccesoDatos.Restaurante.pdb
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\bin\Debug\LogicaNegocio.Tienda.pdb
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\bin\Debug\AccesoDatos.Tienda.pdb
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\bin\Debug\AccesoDatos.Tienda.dll.config
+C:\Users\Diego\Desktop\ProyectoTienda\Proyecto tienda\Proyecto tienda\obj\Debug\Proyecto_tienda.Form1.resources
